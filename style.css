@@ -54,10 +54,11 @@ color: aqua;
    height: 50px;
    border-radius: 30px;
    font-size: 18px;
+   padding-left:20px;
 }
 ::placeholder
 { 
-    padding-left: 10px;
+   
     color: black;
 }
 #btn:hover{
