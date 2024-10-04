@@ -1,0 +1,65 @@
+body{
+    background-image: url("back.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.container
+{
+margin-top:10%;
+width: 350px;
+height:auto;
+padding:20px;
+text-align: center;
+background-color:transparent;
+border-radius: 20px;
+border: 5px solid aqua ;
+box-shadow: 5px black;
+}
+#city{
+background-color: black;
+margin: 40px;
+color: aqua;
+}
+#temp{
+    background-color: black;
+    margin: 40px;
+    color: aqua;
+}
+#climate{
+    background-color: black;
+    margin: 40px;
+    color: aqua;
+}
+#speed
+{
+    background-color: black;
+    margin: 40px;
+    color: aqua;
+}
+#btn{
+ background-color: aqua;
+ width: 90px;
+   height:55px;
+   border-radius: 30px;
+   font-size: 18px;
+   margin-left: 25px;
+}
+#inp{
+   background-color: aqua;
+   width: 190px;
+   height: 50px;
+   border-radius: 30px;
+   font-size: 18px;
+}
+::placeholder
+{ 
+    padding-left: 10px;
+    color: black;
+}
+#btn:hover{
+    background-color:rgb(17, 216, 216);
+}
